@@ -3,6 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 
 <AnchorPane prefHeight="700.0" prefWidth="950.0" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StockManagementController">
@@ -12,6 +14,11 @@
         </padding>
         
         <HBox alignment="CENTER_LEFT" spacing="15.0">
+            <ImageView fitHeight="60.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../images/reap-tn-logo.png" />
+                </image>
+            </ImageView>
             <Label styleClass="section-header" text="Stock Management">
                 <graphic>
                     <FontIcon iconLiteral="fas-boxes" iconSize="24" />
